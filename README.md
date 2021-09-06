@@ -113,7 +113,13 @@
 ### **기타**
 - 모든 예외 발생 상황은 alert을 이용하여 처리한다.
 
-## 결과물 스크린샷
+## 결과물 
+
+### 실행 환경
+- `http-server`로 로컬 서버 띄워서 확인
+  - `brew install http-server && http-server ./`
+- 테스트는 채점이 아니라 개발 시 확인을 위한 용도로 jest 사용
+  - `yarn test` / `yarn test:watch`
 
 ### `자판기 잔돈(보유 금액) 충전 메뉴`
 <img width="851" alt="스크린샷 2021-09-06 오전 11 21 19" src="https://user-images.githubusercontent.com/81607552/132151767-c2d4a24d-89d5-4b14-be3a-7eed16fd227f.png">
