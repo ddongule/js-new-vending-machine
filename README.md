@@ -112,3 +112,19 @@
 
 ### **기타**
 - 모든 예외 발생 상황은 alert을 이용하여 처리한다.
+
+## 결과물 스크린샷
+
+### `자판기 잔돈(보유 금액) 충전 메뉴`
+<img width="851" alt="스크린샷 2021-09-06 오전 11 21 19" src="https://user-images.githubusercontent.com/81607552/132151767-c2d4a24d-89d5-4b14-be3a-7eed16fd227f.png">
+
+### `상품 추가 메뉴`
+<img width="853" alt="스크린샷 2021-09-06 오전 11 21 32" src="https://user-images.githubusercontent.com/81607552/132151772-15277fe8-d243-4180-aa91-9ffd62c6a2d8.png">
+
+### `상품 구매 및 금액 충전 메뉴`
+#### `금액 충전`
+<img width="850" alt="스크린샷 2021-09-06 오전 11 22 43" src="https://user-images.githubusercontent.com/81607552/132151802-f03621aa-bb45-4357-9809-0afc50e77427.png">
+
+#### `잔돈 반환`
+<img width="853" alt="스크린샷 2021-09-06 오전 11 22 59" src="https://user-images.githubusercontent.com/81607552/132151805-a5e31aea-d227-4877-8cd3-4d886217a102.png">
+
