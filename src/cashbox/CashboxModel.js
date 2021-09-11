@@ -1,5 +1,3 @@
-import Random from "../lib/Random.js";
-
 /**
  * 잔돈 계산 모듈
  * - 최소 개수의 동전으로 잔돈을 돌려준다.
@@ -45,7 +43,7 @@ export default class CashboxModel {
     const chargeCoins = { ...this.remainingCoins };
 
     while (amount > 0) {
-      const selectedCoin = Random.pick([500, 100, 50, 10]);
+      const selectedCoin = WoowaUtil.Random.pickNumberInList([500, 100, 50, 10]);
 
       if (selectedCoin > amount) {
         continue;
