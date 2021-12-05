@@ -50,8 +50,8 @@ export default class InventoryView {
     return productList
       .map(({ name, price, quantity }) => {
         const productTemplate = TEMPLATES.SINGLE_PRODUCT.replace("{name}", name)
-          .replace("{price}", price)
-          .replace("{quantity}", quantity);
+          .replace("{price}", price + "개")
+          .replace("{quantity}", quantity + "원");
 
         return productTemplate;
       })

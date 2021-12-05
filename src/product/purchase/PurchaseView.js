@@ -82,11 +82,11 @@ export default class PurchaseView {
       nameTd.dataset.productName = name;
 
       const priceTd = singleProductRow.querySelector(".product-purchase-price");
-      priceTd.innerText = price;
+      priceTd.innerText = price + "원";
       priceTd.dataset.productPrice = price;
 
       const quantityTd = singleProductRow.querySelector(".product-purchase-quantity");
-      quantityTd.innerText = quantity;
+      quantityTd.innerText = quantity + "개";
       quantityTd.dataset.productQuantity = quantity;
 
       productTableFragment.appendChild(singleProductRow);
