@@ -11,7 +11,8 @@
 
 .cashbox-change,
 .cashbox-remaining {
-  width: 130px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .product-inventory {

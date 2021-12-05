@@ -9,12 +9,17 @@
 
 const TEMPLATES = {
   PURCHASE_CASH_CHARGE: `
+      <div class='purchase-container'>
         <h3>충전하기</h3>
-        <input type="number" name="charge-amount" id="charge-input">
-        <button id="charge-button">충전하기</button>
+        <div class='vending-machine-wrapper'>
+          <input type="number" name="charge-amount" id="charge-input">
+          <button id="charge-button">충전하기</button>
+        </div>
         <p>충전 금액: <span id="charge-amount"></span></p>
+      </div>
     `,
   AVAILABLE_PRODUCT_TABLE: `
+      <div class='product-container'>
         <table class="purchase-available">
             <colgroup>
                 <col style="width: 140px">
@@ -33,6 +38,7 @@ const TEMPLATES = {
             <tbody>
             </tbody>
         </table>
+      </div>
     `,
   SINGLE_PRODUCT: `
         <td class="product-purchase-name"></td>
