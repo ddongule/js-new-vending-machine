@@ -48,7 +48,7 @@ const TEMPLATES = {
             <input type="number" name="vending-machine-charge-amount" id="vending-machine-charge-input" autofocus>
             <button id="vending-machine-charge-button">충전하기</button>
         </div>
-        <p>보유 금액: <span id="vending-machine-charge-amount"></span>원</p>        <h3>동전 보유 현황</h3>
+        <p>보유 금액: <span id="vending-machine-charge-amount">0</span>원</p>        <h3>동전 보유 현황</h3>
         <table class="cashbox-remaining">
             <colgroup>
                 <col>

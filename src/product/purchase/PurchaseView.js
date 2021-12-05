@@ -15,7 +15,7 @@ const TEMPLATES = {
           <input type="number" name="charge-amount" id="charge-input">
           <button id="charge-button">충전하기</button>
         </div>
-        <p>충전 금액: <span id="charge-amount"></span>원</p>
+        <p>충전 금액: <span id="charge-amount">0</span>원</p>
       </div>
     `,
   AVAILABLE_PRODUCT_TABLE: `
